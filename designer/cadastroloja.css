@@ -82,3 +82,15 @@ button:hover{
     
 }
 
+#termos {
+    transform: translate(-49%,-50%);
+}
+
+#texto {
+transform: translate(7%,-130%);
+cursor: pointer;
+}
+
+a{
+    color:#24292f;
+}

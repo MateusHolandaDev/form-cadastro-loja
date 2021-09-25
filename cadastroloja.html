@@ -14,30 +14,37 @@
     <main>
         <div class="cadastroloja">
             <form>
-                <div class="texto">
-                    <label id="cadastre-se">CADASTRE-SE</label>
-                    <br>
-                    <br>
-                    <p>Potencialize o número de vendas da sua loja e decole para o sucesso</p>
+                <div class="cadastro">
+                    <div class="texto">
+                        <label id="cadastre-se">CADASTRE-SE</label>
+                        <br>
+                        <br>
+                        <p>Potencialize o número de vendas da sua loja e decole para o sucesso</p>
+                    </div>
+                    <label class for="nome">
+                        <span>NOME</span>
+                        <input type="text" id="nome" placeholder="Nome completo">
+                    </label>
+                    <BR>
+
+                    <label for="email">
+                        <span>E-MAIL</span>
+                        <input type="email" id="email" placeholder="nome@gmail.com.br">
+                    </label>
+                    <BR>
+
+                    <label for="telefone">
+                        <span>TELEFONE</span>
+                        <input type="text" id="telefone" placeholder="(xx) xxxxx-xxxx">
+                    </label>
                 </div>
-                <label for="nome">
-                    <span>NOME</span>
-                    <input type="text" id="nome" placeholder="Nome completo">
-                </label>
-                <BR>
-
-                <label id="email">
-                    <span>E-MAIL</span>
-                    <input type="email" id="email" placeholder="nome@gmail.com.br">
-                </label>
-                <BR>
-
-                <label id="telefone">
-                    <span>TELEFONE</span>
-                    <input type="text" id="telefone" placeholder="(xx) xxxxx-xxxx">
-                </label>
-                <BR>
                 <br>
+                <br>
+
+                <input type="checkbox" id="termos">
+                <label id="texto" for="termos">Li e concordo com os <a href="#">termos de uso</a></label>
+                </input>
+
                 <button type="submit" id="">AVANÇAR</button>
 
             </form>
