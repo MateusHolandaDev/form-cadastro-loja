@@ -1,6 +1,7 @@
 # form-cadastro-loja
 
-![form](https://user-images.githubusercontent.com/90210126/134774785-0dc87e25-9e00-4dd9-be0a-9128872b446c.png)
+![form2 0](https://user-images.githubusercontent.com/90210126/134777306-cd647063-f33f-4216-b144-b1ac8922b06c.png)
+
 
 <h4>HTML</h4>
 
@@ -21,30 +22,37 @@
     <main>
         <div class="cadastroloja">
             <form>
+                <div class="cadastro">
                 <div class="texto">
                     <label id="cadastre-se">CADASTRE-SE</label>
                     <br>
                     <br>
                     <p>Potencialize o número de vendas da sua loja e decole para o sucesso</p>
                 </div>
-                <label for="nome">
+                <label class for="nome">
                     <span>NOME</span>
                     <input type="text" id="nome" placeholder="Nome completo">
                 </label>
                 <BR>
 
-                <label id="email">
+                <label for="email">
                     <span>E-MAIL</span>
                     <input type="email" id="email" placeholder="nome@gmail.com.br">
                 </label>
                 <BR>
 
-                <label id="telefone">
+                <label for="telefone">
                     <span>TELEFONE</span>
                     <input type="text" id="telefone" placeholder="(xx) xxxxx-xxxx">
                 </label>
-                <BR>
+            </div>
                 <br>
+                <br>
+                
+                <input type="checkbox" id="termos">
+                <label id="texto" for="termos">Li e concordo com os <a href="#">termos de uso</a></label>
+                </input>
+                
                 <button type="submit" id="">AVANÇAR</button>
 
             </form>
@@ -144,5 +152,16 @@ button:hover{
     
 }
 
+#termos {
+    transform: translate(-49%,-50%);
+}
 
+#texto {
+transform: translate(7%,-130%);
+cursor: pointer;
+}
+
+a{
+    color:#24292f;
+}
 ```
